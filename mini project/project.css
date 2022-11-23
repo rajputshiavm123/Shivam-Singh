@@ -1,0 +1,219 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+body {
+/* { background: -webkit-linear-gradient(to right, #155799, #cae8d9);
+  background: linear-gradient(to right, #8da7997c, #b44c3c52);  */
+ /* background-color:rgba(55, 107, 105, 0.163); */
+ background-image: linear-gradient(rgba(76, 72, 118, 0.567),rgba(93, 92, 161, 0.7)),url("institute-overview.jpg");
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    justify-items:center; 
+    align-items: center;
+    font-size: 14pt;
+    font-family: "Spartan";
+  
+    
+
+}
+#heading
+{
+  background-color:none;
+  width: auto;
+  text-align: center;
+  margin-top: 2%;
+  margin-left: 20%;
+  margin-right: 20%;
+  /* border-radius: 2px 1px 1px 1px; */
+  /* box-shadow: 1px 2px 3px 4px rgb(234, 245, 253), 1px 2px 3px 4px rgb(55, 60, 61); */
+  box-sizing: content-box;
+}
+
+form 
+{
+   margin-right: 5%;
+  background-color:aliceblue;
+  padding: 12px 20px;
+  justify-items:center;
+  align-items:center;
+  width: 35%;
+  box-shadow: 5px 4px 8px 10px rgba(23, 36, 45, 0.2), 5px 6px 20px 19px rgba(39, 34, 35, 0.19);
+  border-bottom-right-radius: 5%;
+  border-bottom-left-radius: 5%;
+  border-top-right-radius: 5%;
+  border-top-left-radius: 5%;
+  box-sizing: content-box;
+}
+
+input[type=text], input[type=password], input[type=number]
+ {
+  width: 100%; 
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: none;
+  box-sizing: border-box;
+  
+ 
+}
+
+button 
+{
+  background-color:rgba(86, 86, 185, 0.634);
+  /* color: rgb(105, 65, 65); */
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+
+.cancelbtn
+ {
+  width: auto;
+  /* margin-top: 2%; */
+  /* text-align: right; */
+  padding: 8px 16px;
+  /* background-color:rgba(86, 86, 185, 0.634); */
+  /* border-radius: 10px 10px 10px 10px ; */
+}
+
+.imgcontainer 
+{
+  text-align: center;
+  margin: 24px 0 12px 0;
+  background-color: none;
+}
+
+img.GLA 
+{
+  margin-bottom: 3%;
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-right: 3%;
+  width: 40%;
+  /* box-shadow: 2px 4px 6px 8px rgba(112, 122, 122, 0.2), 1px 3px 5px 7px rgba(84, 88, 90, 0.19); */
+  /* border-radius: 20%; */
+ } 
+
+.container
+ {
+  margin-right: 2%;
+  margin-left: 5%;
+  margin-bottom: 2%;
+  padding: 15px;
+  background-color:none;
+  border-radius: 10px 10px 10px 10px ;
+  box-sizing: content-box;
+ 
+}
+
+.containernew{
+  /* margin-right: 2%; */
+  /* margin-left: 5%; */
+  margin-bottom: 2%;
+  padding: 15px;
+  /* background-color:red; */
+  /* border-radius: 10px 10px 10px 10px ; */
+  box-sizing: content-box;
+  display:contents;
+  /* display: flex; */
+ justify-content:space-around;
+}
+
+span.psw 
+{
+  /* margin-top:2%; */
+  width: auto;
+  text-align: right;
+  margin-left: 10%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-sizing: content-box;
+  display:flex;
+  justify-content:flex-end;  
+}
+
+span.login{
+  margin-top:4%;
+  width: auto;
+  text-align:center;
+  margin-left: 32%;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  box-sizing: content-box;  
+  background-color: none;
+  border-radius: 5px 5px 5px 5px ;
+} 
+
+#form1 {
+  /* margin-right: 50%; */margin-left: 30%;
+  background-color: aliceblue;
+  padding: 10px 10px;
+  justify-items: center;
+  align-items: center;
+  width:35%;
+  /* box-shadow: 5px 4px 8px 10px rgba(21, 30, 35, 0.785), 5px 6px 20px 19px rgba(34, 23, 25, 0.746); */
+  box-shadow: 5px 4px 8px 10px rgba(23, 36, 45, 0.2), 5px 6px 20px 19px rgba(39, 34, 35, 0.19);
+  border-bottom-right-radius: 5%;
+  border-bottom-left-radius: 5%;
+  border-top-right-radius: 5%;
+  border-top-left-radius: 5%;
+  /* box-sizing; */
+  
+
+}
+
+
+
+
+
+
+
+
+
+/*         
+body {
+  background-image: linear-gradient(rgba(76, 72, 118, 0.567),rgba(93, 92, 161, 0.7)),url("institute-overview.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.container{
+  width: 90%;
+  height: 300px;
+  padding: 20px;
+  margin: 100px auto;	 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-radius: 12%;
+}
+
+
+.box{
+  width: 500%;
+  margin: 0 10px;
+  box-shadow: 0 0 20px 2px rgba(20, 19, 19, 0.1);
+  transition: 1s;
+  background-color: rgb(208, 214, 220);
+  border-radius: 12%;
+
+}
+.box img{
+  display: block;
+  width:100%;
+  height: 200px;
+}
+.box:hover{
+  transform: scale(1.3);
+  z-index: 50;
+}
+
+ */
